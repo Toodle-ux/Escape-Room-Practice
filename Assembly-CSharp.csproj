@@ -69,7 +69,11 @@
     <Compile Include="Assets\Scripts\DisplayImage.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
     <Compile Include="Assets\Scripts\Interact.cs" />
+    <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\ObjectsManage.cs" />
+    <Compile Include="Assets\Scripts\Puzzle.cs" />
+    <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
+    <Compile Include="Assets\Scripts\UIDisplayer.cs" />
     <Compile Include="Assets\Scripts\ZoomInObject.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

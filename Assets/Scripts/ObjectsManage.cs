@@ -8,10 +8,13 @@ public class ObjectsManage : MonoBehaviour
 
     public GameObject[] ObjectsToManage;
 
+    public GameObject[] UIRenderObjects;
+
     // Start is called before the first frame update
     void Start()
     {
         currentDisplay = GameObject.Find("displayImage").GetComponent<DisplayImage>();
+        RenderUI();
     }
 
     // Update is called once per frame
@@ -32,6 +35,14 @@ public class ObjectsManage : MonoBehaviour
             {
                 ObjectsToManage[i].SetActive(false);
             }
+        }
+    }
+
+    void RenderUI()
+    {
+        for (int i = 0; i < UIRenderObjects.Length; i++)
+        {
+            UIRenderObjects[i].SetActive(false);
         }
     }
 }
