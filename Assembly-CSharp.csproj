@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Interact.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\ObjectsManage.cs" />
+    <Compile Include="Assets\Scripts\PickUpItem.cs" />
     <Compile Include="Assets\Scripts\Puzzle.cs" />
     <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
     <Compile Include="Assets\Scripts\UIDisplayer.cs" />

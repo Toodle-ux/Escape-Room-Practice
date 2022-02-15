@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        InitializeInventory();
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class Inventory : MonoBehaviour
 
     void InitializeInventory()
     {
-        var slots = GameObject.Find("Slots");
+        var slots = GameObject.Find("slots");
         foreach(Transform slot in slots.transform)
         {
             slot.transform.GetChild(0).GetComponent<Image>().sprite =
