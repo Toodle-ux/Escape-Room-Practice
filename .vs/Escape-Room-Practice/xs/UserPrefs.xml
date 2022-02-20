@@ -1,22 +1,15 @@
 ﻿<Properties StartupConfiguration="{F8A4A0C1-732A-F06F-9E73-393C0D057E95}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickUpItem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Drawer.cs">
     <Files>
-      <File FileName="Assets/Scripts/ButtonHandler.cs" Line="73" Column="33" />
-      <File FileName="Assets/Scripts/ChangeView.cs" />
-      <File FileName="Assets/Scripts/ObjectsManage.cs" />
-      <File FileName="Assets/Scripts/DisplayImage.cs" />
-      <File FileName="Assets/Scripts/UIDisplayer.cs" />
-      <File FileName="Assets/Scripts/IInteractable.cs" />
-      <File FileName="Assets/Scripts/Interact.cs" />
-      <File FileName="Assets/Scripts/Puzzle.cs" />
-      <File FileName="Assets/Scripts/PuzzlePiece.cs" />
-      <File FileName="Assets/Scripts/Inventory.cs" Line="24" Column="39" />
-      <File FileName="Assets/Scripts/PickUpItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PickUpItem.cs" Line="40" Column="1" />
+      <File FileName="Assets/Scripts/Slot.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/Inventory.cs" Line="23" Column="22" />
+      <File FileName="Assets/Scripts/Drawer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="587622f6-1fef-4450-aa6a-08e1de5793ba" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6a77586c-0540-484d-81fb-86315d5d6a9f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

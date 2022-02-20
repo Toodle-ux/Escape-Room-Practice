@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Scripts\ChangeView.cs" />
     <Compile Include="Assets\Scripts\DisplayImage.cs" />
+    <Compile Include="Assets\Scripts\Drawer.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
     <Compile Include="Assets\Scripts\Interact.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\Scripts\PickUpItem.cs" />
     <Compile Include="Assets\Scripts\Puzzle.cs" />
     <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
+    <Compile Include="Assets\Scripts\Slot.cs" />
     <Compile Include="Assets\Scripts\UIDisplayer.cs" />
     <Compile Include="Assets\Scripts\ZoomInObject.cs" />
     <Reference Include="UnityEngine">
