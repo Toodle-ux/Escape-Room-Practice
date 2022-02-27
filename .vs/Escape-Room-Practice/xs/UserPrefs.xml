@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{F8A4A0C1-732A-F06F-9E73-393C0D057E95}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Drawer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Slot.cs">
     <Files>
-      <File FileName="Assets/Scripts/PickUpItem.cs" Line="40" Column="1" />
-      <File FileName="Assets/Scripts/Slot.cs" Line="7" Column="2" />
-      <File FileName="Assets/Scripts/Inventory.cs" Line="23" Column="22" />
-      <File FileName="Assets/Scripts/Drawer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PickUpItem.cs" Line="41" Column="78" />
+      <File FileName="Assets/Scripts/Slot.cs" Line="36" Column="42" />
+      <File FileName="Assets/Scripts/Inventory.cs" Line="29" Column="6" />
+      <File FileName="Assets/Scripts/Drawer.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6a77586c-0540-484d-81fb-86315d5d6a9f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de58d2f7-5939-4151-8847-a53825469df5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Slot : MonoBehaviour, IPointerClickHandler
 {
     private GameObject inventory;
 
-    public enum property { usable, displayable};
+    public enum property { usable, displayable, empty};
     public property ItemProperty { get; private set; }
 
     private string displayImage;
@@ -34,5 +35,12 @@ public class Slot : MonoBehaviour, IPointerClickHandler
     {
         ItemProperty = (property)orderNumber;
         this.displayImage = displayImage;
+    }
+
+    public void DisplayItem()
+    {
+        inventory.GetComponent<Inventory>().ItemDisplayer.SetActive(true);
+        inventory.GetComponent<Inventory>().ItemDisplayer.GetComponent<Image>().sprite =
+            Resources.Load<Sprite>("Inventory Items/" + displayImage);
     }
 }
