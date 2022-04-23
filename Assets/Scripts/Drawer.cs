@@ -16,6 +16,7 @@ public class Drawer : MonoBehaviour, IInteractable
             Debug.Log("unlock");
             inventory.GetComponent<Inventory>().currentSelectedSlot.gameObject.transform.GetChild(0).GetComponent<Image>().sprite =
                 Resources.Load<Sprite>("Inventory Items/empty_item");
+            inventory.GetComponent<Inventory>().currentSelectedSlot.GetComponent<Slot>().ItemProperty = Slot.property.empty;
         }
     }
 
